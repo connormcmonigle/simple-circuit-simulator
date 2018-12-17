@@ -4,6 +4,8 @@ A partially functional templated circuit simulation library
 
 An example usage can be found in example.cpp. A circuit object can be constructed using the make_circuit function. Additional electrical component types can be easily added by specifying additional template parameters.  A number of common component type implentations are included. Circuits are loaded from text files containing a list of components, component parameters and a connectivity matrix.
 
+example.cpp can be compiled with "g++ example.cpp -o example --std=c++17".
+
 # File Format
  <component_type> <parameter> <parameter> ...
  
