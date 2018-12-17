@@ -8,7 +8,9 @@ example.cpp can be compiled with "g++ example.cpp -o example --std=c++17".
 
 # File Format
  <node count>
+ 
  <component count>
+ 
  <component_type> <parameter> <parameter> ...
  
  <component_type> <parameter> <parameter> ...
