@@ -7,17 +7,17 @@ An example usage can be found in example.cpp. A circuit object can be constructe
 example.cpp can be compiled with "g++ example.cpp -o example --std=c++17".
 
 # File Format
- <node count>
+ (node count)
  
- <component count>
+ (component count)
  
- <component_type> <parameter> <parameter> ...
+ (component_type) (parameter) (parameter) ...
  
- <component_type> <parameter> <parameter> ...
+ (component_type) (parameter) (parameter) ...
   
- <component_type> <parameter> <parameter> ...
+ (component_type) (parameter) (parameter) ...
 
- <connectivity matrix>
+ (connectivity matrix)
   
   An example can be found in the test.txt file. The connectivity matrix specifies connections between nodes within the circuit. It is a matrix of integers. Nodes are connected by components of id equal to their count in the component list. Negative values correspond to the negative terminal while positive values correspond to the positive terminal. A zero value within the connectivity matrix corresponds to no connection.
   
