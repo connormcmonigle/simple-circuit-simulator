@@ -7,6 +7,8 @@ An example usage can be found in example.cpp. A circuit object can be constructe
 example.cpp can be compiled with "g++ example.cpp -o example --std=c++17".
 
 # File Format
+ <node count>
+ <component count>
  <component_type> <parameter> <parameter> ...
  
  <component_type> <parameter> <parameter> ...
@@ -22,3 +24,4 @@ example.cpp can be compiled with "g++ example.cpp -o example --std=c++17".
  - Solving systems of equations can result in division by zero with the current implementation.
  - Cycle finding within the circuit graph is currently handled by an unusual/untested algorithm that runs with low time complexity.
  - Uses raw pointers and using namespace std.
+ - All code is untested.
