@@ -18,5 +18,5 @@ An example usage can be found in example.cpp. A circuit object can be constructe
  # Known Issues
  
  - Solving systems of equations can result in division by zero with the current implementation.
- - Cycle finding within the circuit graph is currently handled by an unusual/untested algorithm that runs with low time complexity
- - Probably many other issues
+ - Cycle finding within the circuit graph is currently handled by an unusual/untested algorithm that runs with low time complexity.
+ - Uses raw pointers and using namespace std.
